@@ -1,0 +1,19 @@
+{
+  "name": "maze_game",
+  "version": "0.1.0",
+  "description": "A Protoye Maze Game Project by Kamil Pietnicki",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run build && webpack-dev-server --port=8000"
+  },
+  "devDependencies": {
+    "raw-loader": "^0.5.1",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.0"
+  },
+  "dependencies": {
+    "phaser": "^3.3.0",
+    "@mikewesthad/dungeon": "1.2.1"
+  }
+}
